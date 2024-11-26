@@ -12,9 +12,9 @@ Este aplicativo foi projetado para otimizar a experiência de usuários e lojist
 
  ---
 ### Imagens do App
-<img src="https://github.com/user-attachments/assets/b961e87f-c2d5-4039-9fe6-90130d94231b" width="250" height="450">
-<img src="https://github.com/user-attachments/assets/dc06b9a3-89bd-47f3-b5f6-4d3a95d8de09" width="250" height="450">
-<img src="https://github.com/user-attachments/assets/81d62925-4a03-4a77-a1db-891d3061dae6" width="250" height="450">
+<img src="https://github.com/user-attachments/assets/b961e87f-c2d5-4039-9fe6-90130d94231b" height="300em">
+<img src="https://github.com/user-attachments/assets/dc06b9a3-89bd-47f3-b5f6-4d3a95d8de09" height="300em">
+<img src="https://github.com/user-attachments/assets/81d62925-4a03-4a77-a1db-891d3061dae6" height="300em">
 
 
 
