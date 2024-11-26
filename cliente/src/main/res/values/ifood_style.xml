@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonAddress"
+        parent="Widget.AppCompat.Button.Borderless">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/titulo_barra_navegacao</item>
+    </style>
+
+    <style name="circle_shape_image">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circle_side_shape_image">
+        <item name="cornerSize">15%</item>
+    </style>
+
+    <style name="title_1">
+        <item name="android:textSize">@dimen/title_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="title_2">
+        <item name="android:textSize">@dimen/title_2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_3">
+        <item name="android:textSize">@dimen/title_3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_1">
+        <item name="android:textSize">@dimen/text_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Widget.MaterialComponents.Chip.chipSelecao"
+        parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipStrokeWidth">@dimen/borda_chip</item>
+        <item name="chipBackgroundColor">@color/white</item>
+        <item name="chipStrokeColor">@color/gray</item>
+
+        <item name="chipIconVisible">true</item>
+        <item name="chipIconEnabled">true</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+</resources>

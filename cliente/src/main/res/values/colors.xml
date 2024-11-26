@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaria">#EA1D2D</color>
+    <color name="gray">#D6C0C0</color>
+
+    <color name="primariaVariant">#cb1e27</color>
+    <color name="secundaria">#E13E47</color>
+
+    <color name="amarelo">#FFC845</color>
+
+    <!-- Cores transparentes -->
+    <color name="preto_transparente">#94000000</color>
+
+</resources>

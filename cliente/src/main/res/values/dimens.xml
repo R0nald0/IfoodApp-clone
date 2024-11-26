@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_cadastro_input">8dp</dimen>
+    <dimen name="title_barra_navegacao">12sp</dimen>
+    <dimen name="title_1">18sp</dimen>
+    <dimen name="title_2">16sp</dimen>
+    <dimen name="title_3">14sp</dimen>
+
+    <dimen name="text_1">14sp</dimen>
+    <dimen name="text_2">16sp</dimen>
+    <dimen name="text_3">14sp</dimen>
+    <dimen name="paddingGrande">24dp</dimen>
+    <dimen name="paddingPadrao">16dp</dimen>
+    <dimen name="paddingPequeno">8dp</dimen>
+    <dimen name="titulo_grande">24sp</dimen>
+    <dimen name="titulo_extra_grande">32sp</dimen>
+
+
+    <dimen name="titulo_barra_navegacao">14dp</dimen>
+    <dimen name="tamanho_texto_titulo1">18dp</dimen>
+    <dimen name="tamanho_texto_titulo2">16dp</dimen>
+    <dimen name="tamanho_texto_titulo3">14dp</dimen>
+
+    <dimen name="texto_extra_grande">32dp</dimen>
+    <dimen name="texto_grande">24dp</dimen>
+    <dimen name="texto_medio">18dp</dimen>
+    <dimen name="texto_pequeno">14dp</dimen>
+    <dimen name="texto_extra_pequeno">12dp</dimen>
+
+    <dimen name="tamanho_texto1">16dp</dimen>
+    <dimen name="tamanho_texto2">14dp</dimen>
+
+    <dimen name="espacamento_grande">24dp</dimen>
+    <dimen name="espacamento_padrao">16dp</dimen>
+    <dimen name="espacamento_pequeno">8dp</dimen>
+
+    <dimen name="borda_chip">2dp</dimen>
+</resources>

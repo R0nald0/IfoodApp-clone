@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_dados_loja"
+        android:title="Dadosda Loja" />
+    <item
+        android:id="@+id/id_cardapio"
+        android:title="Cardapio" />
+    <item
+        android:id="@+id/id_local_de_atuacao"
+        android:title="Local de atuação" />
+    <item
+        android:id="@+id/id_sair"
+        android:title="Sair" />
+</menu>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageProduto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TextView
+            android:id="@+id/textTituloProduto"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="McOferta Média Novo Brabo Clubhouse" />
+
+        <TextView
+            android:id="@+id/textPrecoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal: R$ 29,90 Desconto: R$ 19,90"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnAdicionarOpcionais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_adicionar_opcionais_24" />
+
+            <ImageButton
+                android:id="@+id/btnEditarProduto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_editar_24" />
+
+            <ImageButton
+                android:id="@+id/btnExcluirProduto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_remover_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageProduto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:shapeAppearanceOverlay="@style/circle_side_shape_image"
+        app:srcCompat="@drawable/produto_destaque" />
+
+    <TextView
+        android:id="@+id/txt_destaque_produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@color/amarelo"
+        android:padding="2dp"
+        android:text="Destaque"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageProduto"
+        app:layout_constraintEnd_toEndOf="@+id/imageProduto"
+        app:layout_constraintStart_toStartOf="@+id/imageProduto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

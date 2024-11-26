@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.loja.presentation.ui.activity.LoginActivity"
+        android:label="LoginActivity" />
+    <activity
+        android:id="@+id/cadastroActivity"
+        android:name="com.example.loja.presentation.ui.activity.CadastroActivity"
+        android:label="CadastroActivity" />
+    <activity
+        android:id="@+id/lojaActivity"
+        android:name="com.example.loja.presentation.ui.activity.LojaActivity"
+        android:label="activity_loja"
+        tools:layout="@layout/activity_loja" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.loja.presentation.ui.activity.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clItemProdutoDestaque"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/imageProduto"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textTituloProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RIBS ON THE BARBIE + 2 ACOMPANHAMENTOS + ICED TEA 1L"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDescricaoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nossa costela suína preparada em chama aberta como manda a tradição australiana"
+            />
+
+        <TextView
+            android:id="@+id/textPrecoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R$ 49,90"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageProduto"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+        app:shapeAppearance="@style/circle_side_shape_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

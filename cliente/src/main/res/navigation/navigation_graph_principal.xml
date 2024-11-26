@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph_principal"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_lojaFragment"
+            app:destination="@id/lojaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscaFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.BuscaFragment"
+        android:label="fragment_busca"
+        tools:layout="@layout/fragment_busca" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/pedidoFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.PedidoFragment"
+        android:label="fragment_pedido"
+        tools:layout="@layout/fragment_pedido" />
+    <fragment
+        android:id="@+id/lojaFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.LojaFragment"
+        android:label="fragment_loja"
+        tools:layout="@layout/fragment_loja" >
+        <action
+            android:id="@+id/action_lojaFragment_to_produtosFragment"
+            app:destination="@id/produtosFragment" />
+        <argument
+            android:name="loja"
+            app:argType="com.example.domain.models.Loja" />
+    </fragment>
+    <fragment
+        android:id="@+id/produtosFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.ProdutosFragment"
+        android:label="fragment_produtos"
+        tools:layout="@layout/fragment_produtos" >
+        <action
+            android:id="@+id/action_produtosFragment_to_finalizarPedidoFragment"
+            app:destination="@id/finalizarPedidoFragment" />
+        <argument
+            android:name="produto"
+            app:argType="com.example.domain.models.Produto" />
+        <argument
+            android:name="loja"
+            app:argType="com.example.domain.models.Loja" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalizarPedidoFragment"
+        android:name="com.example.ifood_clone2.presentation.ui.fragments.FinalizarPedidoFragment"
+        android:label="fragment_finalizar_pedido"
+        tools:layout="@layout/fragment_finalizar_pedido" />
+</navigation>
